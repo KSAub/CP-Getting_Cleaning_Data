@@ -58,5 +58,8 @@ dall$Activity <- activities[dall$Activity]
 library(dplyr)
 daverage <- dall %>% group_by(Subject,Activity) %>% summarise_each(funs(mean(., na.rm=TRUE))) %>% as.data.frame()
 
+#create the tidy dataset as .csv (txt)
+write.table(daverage, "data_averages.csv", row.name=FALSE)
+
 # return to our previous working directory
 setwd("../..")
