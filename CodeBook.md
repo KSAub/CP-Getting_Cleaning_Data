@@ -10,6 +10,7 @@ This file containes the merged, filtered, and cleaned-up training and test datas
 * "Subject" the person on which the measurements were being done (numeric identifier)
 * "Activity" the activity performed at the time of the measurement.
 * Measurements: 
+
 - "Subject"                     
 - "Activity"                    
 - "BodyAccMeanX"                
