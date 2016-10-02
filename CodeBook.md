@@ -86,7 +86,7 @@ Measurements come from the accelerometer and gyroscope. They were filtered using
 
 A Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. Those measurements have the prefix "Freq" 
 
-####Activities
+###Activities
 Activities can be any of the following
 
 - WALKING
